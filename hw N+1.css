@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: calc(50% - 600px);
+    margin-right: calc(50% - 600px);
+}
+
+.header {
+    background-image: url(./img/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    height: 1024px;
+}
+
+.header__title {
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header__paragraph {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFF;
+}
+
+.games {
+    background-color: black;
+}
+
+.cart__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
