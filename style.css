@@ -62,6 +62,10 @@
     height: 300px;
 }
 
+.cart__img {
+    position: absolute;
+}
+
 .cart__title {
     color: #FFF;
     font-family: Montserrat;
@@ -69,4 +73,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
+    position: relative;
+    margin-top: 236px;
+    margin-left: 32px;
 }
