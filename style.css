@@ -60,7 +60,7 @@
 }
 
 .games__cart {
-    max-width: 379px;
+    width: 379px;
     height: 300px;
     gap: 32px;
     margin-top: 128px;
@@ -84,7 +84,7 @@
     margin-left: 32px;
 }
 
-@media (max-width : 390px) {
+@media (max-width : 391px) {
     .center {
         margin-left: calc(50% - 172px);
         margin-right: calc(50% - 172px);
@@ -126,17 +126,19 @@
         margin-top: 0;
         margin-bottom: 0;
         max-width: 343px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
 
     .cart__img {
-        width: 343px;
+        max-width: 343px;
         height: 300px;
         flex-shrink: 0;
     }
 
     .cart__title {
-        margin-left: 16px;
+        margin-left: 12px;
     }
 
 }
