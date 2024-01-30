@@ -65,6 +65,7 @@
     gap: 32px;
     margin-top: 128px;
     margin-bottom: 128px;
+    text-decoration: none;
 }
 
 .cart__img {
