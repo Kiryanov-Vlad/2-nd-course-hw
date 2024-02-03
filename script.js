@@ -27,12 +27,12 @@ let two = 2;
 alert(nine % two);
 //n7
 let num = 1;
-num = num += 5;
-num = num -= 3;
-num = num *= 7;
-num = num /= 3;
-num = ++num;
-num = --num;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+++num;
+num--;
 alert(num);
 
 //n8
